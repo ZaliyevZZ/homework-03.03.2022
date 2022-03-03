@@ -1,0 +1,53 @@
+@font-face {
+  font-family: Poppins;
+  src: url(../fonts/Poppins-Regular.ttf);
+}
+
+.block {
+  margin-left: 130px;
+  margin-right: 130px;
+  margin-bottom: 10px;
+}
+
+.blocko {
+  display: inline-block;
+  width: 31.15%;
+  height: 560px;
+  margin-top: 70px;
+  margin-left: 12px;
+  box-shadow: 1px 2px 7px -0.5px;
+}
+
+.blocko > img {
+  width: 100%;
+  height: 200px;
+}
+
+.blocko > p {
+  display: inline-block;
+}
+
+p,
+a,
+h3 {
+  display: inline-block;
+  margin: 12px;
+  font-family: Poppins;
+  text-align: justify;
+}
+
+a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.5);
+  font-weight: 700;
+}
+
+p {
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 600;
+  font-weight: 600;
+}
+
+h3 {
+  font-size: 21px;
+}
